@@ -16,7 +16,8 @@ it is ideal to utilize the built-in implementations, which are written
 in C, whenever possible.  Implementing the interpreter pattern to 
 tokenize a string and a custom comparator to compare the resulting tokens, 
 along with a function to orchestrate the process, will produce 
-the most efficient solution with the minimum of drag on performance.
+the most efficient solution with the minimum of drag on performance 
+by using the built-in sort function with the custom comparator.
 
 ## Running Natively
 The following command will run the application, if all the dependencies are installed:
